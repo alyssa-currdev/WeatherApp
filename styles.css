@@ -1,0 +1,60 @@
+#site-title {
+    font-size: 2.5rem;
+    font-family: 'Georgia', serif;
+    color: #00aaff;
+    margin-bottom: 30px;
+  }
+
+/* General layout */
+.weather-app {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: #eef2f3;
+    
+  }
+  
+  /* Weather card */
+  .weather-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px 40px;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+
+  }
+  
+  /* Reusable text styles */
+  .location {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .temperature {
+    font-size: 3rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .condition {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  /* Conditional styling (like weather types) */
+  .sunny {
+    border-top: 5px solid #f9d71c;
+  }
+  
+  .rainy {
+    border-top: 5px solid #00aaff;
+  }
+  
+  .cloudy {
+    border-top: 5px solid #b0bec5;
+  }
+  
